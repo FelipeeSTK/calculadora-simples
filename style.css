@@ -1,0 +1,53 @@
+
+*{ /* usar * pega todo o documento html. não apenas classes ou ids separados */
+    align-items: center;
+    justify-content: center;
+    flex-direction:column-reverse;
+    font-weight: bold; /* estilo de fonte, exemplo: negrito; itálico....*/
+    margin-bottom: 10px; /*distancia (altura) entre as linhas*/
+    margin-left: 2px;
+    text-align: center;
+}
+#result{ /* para chamar um id utilizasse #; para chamar classe usamos . */
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+}
+#cor{
+    background-color:aqua;
+    height: 30%;
+    font-size: 30px; /* tamanho da fonte */
+    color: black;
+}
+h2{
+    color:aqua;
+    background-color: black;
+    font-size: 50px;
+}
+#ope_ent {
+    font-size: 25px;
+    background-color:black;
+    color: aqua;
+}
+#bt{
+    font-size: 20px;
+    background-color: black;
+    color: aqua;
+}
+#n1 {
+    font-size: 20px;
+}
+#n2 {
+    font-size: 20px;
+}
+#bt:hover{ /*quando o mouse estiver sobre...*/
+    cursor:grab; /* muda o formato da seta do mouse*/
+    background-color: darkblue; /* muda a cor de fundo*/
+    color: white;
+    box-shadow:0px 3px 8px 11px white;
+}
+#ope_ent:hover {
+    cursor:all-scroll; /* muda o formato da seta do mouse*/
+    background-color: darkblue; /* muda a cor de fundo*/
+    color: white;
+}
